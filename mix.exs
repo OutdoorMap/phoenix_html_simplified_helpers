@@ -37,7 +37,7 @@ defmodule Phoenix.HTML.SimplifiedHelpers.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:timex, "~> 3.4 or ~> 3.3 or ~> 3.2"},
+      {:timex, "~> 3.7"},
       {:ecto, "~> 3.6"},
       {:gettext, ">= 0.11.0"},
       {:phoenix, "~> 1.3 or ~> 1.4", only: :test},
